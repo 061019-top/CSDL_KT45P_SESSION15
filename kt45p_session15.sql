@@ -71,4 +71,5 @@ begin
         values (new.student_id, old.score, new.score, now());
     end if;
 end //
+
 delimiter ;
